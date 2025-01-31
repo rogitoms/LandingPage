@@ -1,0 +1,64 @@
+input[type=text] {
+    width: 100%; 
+    padding: 10px; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: none; 
+    border-bottom: 1px solid #262626; 
+    outline: none; 
+    box-sizing: border-box; 
+    background-color: transparent; 
+}
+
+input[type="color"] {
+    width: 200px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    padding: 5px 15px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    background: #262626;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    width: auto; 
+    max-width: 250px;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    input {
+        font-size: 14px;
+        padding: 2px;
+        
+        width: 90%;
+    }
+
+    input[type=submit] {
+        font-size: 24px;
+        padding: 5px 10px;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    input {
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    input[type=submit] {
+        font-size: 18px;
+        padding: 5px 8px;
+        max-width: 150px;
+    }
+}

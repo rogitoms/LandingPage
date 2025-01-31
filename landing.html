@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/img10.png" width="90%"/>
+            
+        </div>
+
+            <div class="dropdown">
+                <button class="dropdown-button">Choose a color</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <input type="color" placeholder="Search.." id="myInput" onkeyup="filterFunction()"><br><br>
+                    <button onclick="applyColor()">Apply Color</button>
+                </div>
+            </div>    
+            <script>
+                
+    </script>        
+        <div class="icons">
+            <img src="images/img8.png" width="100%"/>
+        </div>
+    </header>
+    
+    <div class="fullbar">
+        <h1>May-July</h1>
+        <p1>Write a captivating header here to engage your customers</p1><br><br>
+        <p2> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales. Quisque sagittis orci ut diam condimentum, vel euismod erat placerat. In iaculis arcu eros, eget temp</p2>
+        <br><br><br><input type="btn1" name="call to action"value="CALL TO ACTION"/>
+    </div>
+
+    <div class="content_row">
+        <div class="content">
+            <h3>Subscribe to our mailing list</h3>
+        </div>
+        <div class="sidebar">
+            <p4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis.</p4>
+            <form>
+                <input type="text" placeholder="Name"><br><br>
+                <input type="text" placeholder="Email"><br><br>
+                <input type="submit" name="call to action"value="Call to action"/>
+            </form>
+        </div>
+    </div>
+    
+
+<div class="content_row2 ">
+    <div class="sidebar2">
+        <p1>Write a captivating header here to engage your customers</p1><br><br>
+        <input type="btn1" name="call to action"value="CALL TO ACTION"/>
+    </div>
+    <div class = "sidebar3"><br><br><br>
+        <img src="images/img2.png" width="500%"/>
+        <br><br>
+    </div>
+</div>
+
+<div class="content_row">
+    <div class="content">
+        <img src="images/img3.png" width="90%"/>
+    </div>
+
+    <div class = "sidebar">
+        <p3>Write a captivating header here</p3>
+        <p4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis.</p4>
+        <br><input type="btn" name="call to action"value="CALL TO ACTION"/>
+    </div>
+</div>
+
+<div class="content_row2">
+    <div class="column">
+        <h2>Number 01</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum.</p>
+        <input type="btn1" name="call to action"value="CALL TO ACTION"/>
+    </div>
+    <div class="column">
+        <h2>Number 02</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum.</p>
+    </div>
+
+</div>
+
+<div class="container">
+    <!-- Speaker Section -->
+    <div class="speakers">
+        <div class="speaker-card">
+            <div class="speaker-text">
+                <P3>Speaker Name</P3>
+                <p6><strong>Lorem ipsum dolor</strong></p6>
+                <p7>Lorem ipsum dolor</p7>
+            </div>
+            <img src="images/img4.png" />
+        </div>
+        <div class="speaker-card">
+            <div class="speaker-text">
+                <P3>Speaker Name</P3>
+                <p6>Lorem ipsum dolor</p6>
+                <p7>Lorem ipsum dolor</p7>
+            </div>
+            <img src="images/img5.png" />
+        </div>
+    </div>
+
+<div class="fullbar1">
+    <p5>Write a captivating header here to engage your customers </p5>
+    <br><br><br><input type="btn" name="call to action"value="CALL TO ACTION"/>
+</div>
+
+<footer class="footer">
+    <div class="logo1">
+        <img src="images/img10.png" width="100%"/>
+    </div>
+    <div class="icons1">
+        <img src="images/img8.png" width="100%"/>
+    </div>
+</footer>
+<script>
+
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+                }
+
+                function filterFunction() {
+                const input = document.getElementById("myInput");
+                const filter = input.value.toUpperCase();
+                const div = document.getElementById("myDropdown");
+                const a = div.getElementsByTagName("a");
+                for (let i = 0; i < a.length; i++) {
+                    txtValue = a[i].textContent || a[i].innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    a[i].style.display = "";
+                    } else {
+                    a[i].style.display = "none";
+                    }
+                }
+                }
+    const dropdownButton = document.querySelector('.dropdown-button');
+   
+    const dropdownLinks = document.querySelectorAll('.dropdown-content a');
+    let targetElements = [];
+
+    // find and track elements with the original color
+    function initializeTargetElements() {
+        document.querySelectorAll('*').forEach(function (element) {
+            const styles = window.getComputedStyle(element);
+            if (styles.color === 'rgb(119, 23, 215)' || styles.backgroundColor === 'rgb(119, 23, 215)') {
+                targetElements.push(element);
+            }
+        });
+    }
+ 
+    
+   
+    function applyColor() {
+    const colorPicker = document.getElementById("myInput");
+    const selectedColor = colorPicker.value;
+    
+    
+    function isNearWhite(color) {
+        
+        const r = parseInt(color.substr(1, 2), 16);
+        const g = parseInt(color.substr(3, 2), 16);
+        const b = parseInt(color.substr(5, 2), 16);
+
+        const brightness = (r * 0.299 + g * 0.587 + b * 0.114);
+        
+        return brightness > 150; 
+    }
+    if (!isNearWhite(selectedColor)) {
+        updateColors(selectedColor);
+        localStorage.setItem('selectedColor', selectedColor);
+    } else {
+        alert("Please select a darker color. White and near-white colors are not allowed.");
+    }
+}
+    
+    function updateColors(selectedColor) {
+        targetElements.forEach(function (element) {
+            const styles = window.getComputedStyle(element);
+            if (styles.color === 'rgb(119, 23, 215)' || element.style.color) {
+                element.style.color = selectedColor;
+            }
+            if (styles.backgroundColor === 'rgb(119, 23, 215)' || element.style.backgroundColor) {
+                element.style.backgroundColor = selectedColor;
+            }
+        });
+    }
+
+    // Add event listeners to dropdown links
+    dropdownLinks.forEach(function (link) {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();
+            const selectedColor = this.getAttribute('data-color');
+            const selectedText = this.textContent;
+
+            updateColors(selectedColor); 
+            dropdownButton.textContent = selectedText;
+            localStorage.setItem('selectedColor', selectedColor);
+            localStorage.setItem('selectedText', selectedText); 
+
+            // Close the dropdown
+            dropdownContent.style.display = 'none';
+        });
+    });
+
+    // Reopen dropdown on button click
+    dropdownButton.addEventListener('click', function () {
+        if (dropdownContent.style.display === 'block') {
+            dropdownContent.style.display = 'none'; // Close if already open
+        } else {
+            dropdownContent.style.display = 'block'; // Open if closed
+        }
+    });
+
+    // On page apply saved color
+    document.addEventListener('DOMContentLoaded', function () {
+        initializeTargetElements(); 
+
+        const savedColor = localStorage.getItem('selectedColor');
+        const savedText = localStorage.getItem('selectedText');
+        if (savedColor && savedText) {
+            updateColors(savedColor);
+            dropdownButton.textContent = savedText; 
+        }
+    });
+
+    // Close dropdown clicking outside 
+    document.addEventListener('click', function (event) {
+        if (!dropdownButton.contains(event.target) && !dropdownContent.contains(event.target)) {
+            dropdownContent.style.display = 'none';
+        }
+    });
+</script>
+</body>
+</html>

@@ -15,7 +15,7 @@ Technologies Used
 
 Installation & Usage
 1. Clone the Repository
-git clone https://github.com/rogitoms/landing-page.git
+git clone https://github.com/rogitoms/LandingPage.git
 2. Open in Browser
 Simply open the `landing.html` file in your browser.
 

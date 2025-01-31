@@ -20,6 +20,7 @@ git clone https://github.com/rogitoms/landing-page.git
 Simply open the `landing.html` file in your browser.
 
 Folder Structure
+```
 Html/
 │── landing.html        # Main HTML file
 │──  /css/               # Folder for CSS files
@@ -29,5 +30,5 @@ Html/
 │── color.js         # JavaScript functionality
 │── images/           # Images and icons
 │── README.md         # Project documentation
-
+```
 
